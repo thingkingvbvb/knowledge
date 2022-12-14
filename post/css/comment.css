@@ -1,0 +1,213 @@
+.mean-bar{
+position: relative !important;
+
+}
+#wrapper {
+    padding-top: 0 !important;
+}
+
+
+.comment {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #eaeaea;
+    padding-bottom: 20px;
+    font-family: 'Roboto',sans-serif;
+margin-top: 50px;
+border-radius: 20px;
+}
+.comment h4{
+width: 100%;
+text-align: center;
+line-height: 50px;
+font-size: 18px;
+
+
+}
+.ele_comment {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    cursor: pointer;
+    border-top: 1px #eaeaea solid;
+}
+
+
+.ele_comment img {
+    border: 0.5px solid #eaeaea;
+    width: 30px;
+    height: 30px;
+    float: left;
+    display: block;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+.comment_content{
+    width: calc(100% - 75px);
+display: block;
+overflow: hidden;
+background-color: #F0F2F5;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 10px;
+margin-left: 59px;
+padding: 5px 0 5px 0;
+}
+
+.user_name{
+    max-width: 90%;
+    display: inline-block;
+    padding-left: 10px;
+    font-family: 'Open Sans',arial,sans-serif;
+    font-size: 14px;
+    color: #222;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+font-style: bolder;
+font-weight: 800px;
+
+}
+
+.comment_content p{
+
+max-width: 97%;
+padding-left: 10px;
+
+user-select: text !important;
+font-family: inherit;
+text-align: start;
+margin: auto;
+padding: auto;
+}
+
+.reply_content{
+    width: calc(100% - 75px);
+display: block;
+overflow: hidden;
+background-color: #F0F2F5;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 10px;
+margin-left: 59px;
+padding: 5px 0 5px 0;
+
+}
+
+.user_reply{
+    max-width: 90%;
+    display: inline-block;
+    padding-left: 10px;
+    font-family: 'Open Sans',arial,sans-serif;
+    font-size: 14px;
+    color: #222;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+}
+
+.reply_content p{
+
+    max-width: 97%;
+    padding-left: 10px;
+    
+    user-select: text !important;
+    font-family: inherit;
+    text-align: start;
+    margin: auto;
+    padding: auto;
+    }
+    .input_box
+    {width: calc(100% - 49px);
+        height: 72px;
+        margin-top: 5px;
+        border-top: none;
+        background-color: #FFFFFF;
+        margin-left: 43px;
+    }
+
+    .input_box .input {
+        width: calc(100% - 125px);
+        height: 60px;
+        margin-top: 6px;
+        display: block;
+        float: left;
+        border-radius: 100px;
+        background-color: #eaebee;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .input_box .input textarea {
+        height: 100%;
+        display: inline-block;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #eaeaea;
+        text-decoration: none;
+        width: 100%;
+        border-radius: 5px;
+        color: #252525;
+        border: none;
+        font-size: 16px;
+        resize: none;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .input_box .send {
+        width: 95px;
+        height: 100%;
+        float: right;
+        display: block;
+    }
+    .input_box .send input {
+        padding-left: 24px;
+        padding-right: 24px;
+        min-height: 40px;
+        background: linear-gradient(262deg, #ff7854, #fd267d);
+        -webkit-font-smoothing: antialiased;
+        user-select: text !important;
+        -webkit-user-drag: none;
+        box-sizing: inherit;
+        -webkit-tap-highlight-color: transparent;
+        margin: 0;
+        border-style: none;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        touch-action: manipulation;
+        border-radius: 100px;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        align-self: flex-end;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        letter-spacing: .02em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 16px;
+        max-width: 100%;
+        overflow: hidden;
+        padding-top: 0;
+        padding-bottom: 0;
+        position: relative;
+        text-overflow: ellipsis;
+        text-transform: uppercase;
+        transition-duration: .2s;
+        transition-property: background;
+        white-space: nowrap;
+        z-index: 0;
+        hyphens: none;
+        box-shadow: 0 1px 6px 0 rgba(0,0,0,.27);
+        margin-top: 15px;
+    }

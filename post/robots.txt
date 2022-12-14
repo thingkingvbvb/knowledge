@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://phohen.com/files/sitemap-index.xml
